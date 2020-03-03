@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stage component tests renders Stage with participant info 1`] = `
+<div>
+  <div>
+    <img
+      alt="Avatar"
+      className="tile-image"
+      src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+    />
+    <p>
+      Koren Templeton
+    </p>
+  </div>
+</div>
+`;

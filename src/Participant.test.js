@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Participant from './Participant';
 import renderer from 'react-test-renderer';
+import Participant from './Participant';
+
 
 describe('Participant Component Tests', () => {
 
