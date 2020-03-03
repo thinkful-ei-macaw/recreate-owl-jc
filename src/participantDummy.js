@@ -40,4 +40,9 @@ const participants = [
   }
 ];
 
+export const findNameById = (id) => {
+    const current = participants.find(participant => participant.id === id);
+    return current.name;
+}
+
 export default participants;
