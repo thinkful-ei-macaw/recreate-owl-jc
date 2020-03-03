@@ -2,7 +2,7 @@ import React from 'react'
 
 const ChatEvent = (props) => {
 
-  function getMessage(props) {
+  function getEventMessage() {
     switch(props.type) {
       case 'thumbs-up': return `${props.name} gave a thumbs up 👍`;
       case 'thumbs-down': return `${props.name} gave a thumbs down 👎`;
@@ -16,11 +16,19 @@ const ChatEvent = (props) => {
     }
   }
 
+  function getMessage() {
+    if(props.message) {
+      return <div>{props.name} -- {props.message} -- {new Date(props.time).toLocaleTimeString()}</div>
+    } else {
+      return getEventMessage();
+    }
+  }
+
+  const message = getMessage();
+
 return (
 <div>
-  {props.message
-  ? <div>{props.name} -- {props.message} -- {new Date(props.time).toLocaleTimeString}</div>
-  : getMessage(props)}
+  {message}
 </div>
 );
 }

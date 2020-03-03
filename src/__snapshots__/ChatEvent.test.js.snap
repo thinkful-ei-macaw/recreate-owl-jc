@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chat event Component tests renders event messages appropriately 1`] = `
+<div>
+  Cindy raised their hand ✋
+</div>
+`;
+
+exports[`Chat event Component tests renders message chats appropriately 1`] = `
+<div>
+  <div>
+    Bob
+     -- 
+    Hello world
+     -- 
+    7:50:46 AM
+  </div>
+</div>
+`;

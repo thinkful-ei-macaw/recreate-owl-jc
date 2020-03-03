@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChatLog Component tests renders the expected events in log 1`] = `
+<div>
+  <div>
+    <div>
+      Axe Kubicka
+       -- 
+      Hello world
+       -- 
+      7:50:46 AM
+    </div>
+  </div>
+  <div>
+    Caty Flucker gave a thumbs up 👍
+  </div>
+  <div>
+    Frank Runciman gave a thumbs down 👎
+  </div>
+</div>
+`;
