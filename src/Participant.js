@@ -1,12 +1,13 @@
 import React from 'react'
+import './Participant.css'
 
 const Participant = (props) => {
 
 return (
-<div>
+<div className="participant-card">
   <img className="participant participant-img" alt="Avatar" src={props.avatar}/>
-  <p>{props.name}</p>
-  {props.onStage ? <p>on stage</p> : null}
+  <p className="name-paragraph">{props.name}</p>
+  {props.onStage ? <p className="stage-status">on stage</p> : null}
 </div>
 );
 }

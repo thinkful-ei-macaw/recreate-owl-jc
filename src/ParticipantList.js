@@ -4,7 +4,7 @@ import Participant from './Participant';
 const ParticipantList = (props) => {
 
 return (
-  <div>
+  <div className="participant-list">
     {props.participants.map(participant => (participant.inSession
     ? <Participant 
     key={participant.id}

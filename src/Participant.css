@@ -1,0 +1,20 @@
+.participant-img {
+  height: 50px;
+  width: 50px;
+  width: 10%;
+}
+
+.participant-card {
+  height: 100px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+}
+
+.stage-status {
+  width: 20%;
+}
+
+.name-paragraph {
+  width: 70%;
+}
