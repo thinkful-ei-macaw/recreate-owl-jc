@@ -1,10 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import ParticipantList from './ParticipantList';
+import participants from './participantDummy';
 function App() {
   return (
     <div className="App">
+      <ParticipantList participants={participants}/>
     </div>
   );
 }

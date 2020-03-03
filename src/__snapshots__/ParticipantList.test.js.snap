@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ParticipantList Component Tests renders the list with info 1`] = `
+<div>
+  <div>
+    <img
+      alt="Avatar"
+      className="participant participant-img"
+      src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+    />
+    <p>
+      Koren Templeton
+    </p>
+    <p>
+      on stage
+    </p>
+  </div>
+  <div>
+    <img
+      alt="Avatar"
+      className="participant participant-img"
+      src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+    />
+    <p>
+      Caty Flucker
+    </p>
+  </div>
+</div>
+`;

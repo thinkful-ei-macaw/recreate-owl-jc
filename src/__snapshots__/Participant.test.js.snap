@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Participant Component Tests renders the Participant with correct info 1`] = `
+<div>
+  <img
+    alt="Avatar"
+    className="participant participant-img"
+    src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+  />
+  <p>
+    Koren Templeton
+  </p>
+</div>
+`;
